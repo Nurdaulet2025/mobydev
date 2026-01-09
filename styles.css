@@ -1,26 +1,69 @@
-p {
-    color: blue;
+.card1 {
+    display: flex;
+    background-color: #000000;
+    width: 1300px;
+    height: 545px;
+    border-radius: 32px;
+    gap: 53px;
 }
 
-.cl {
-    font-weight: 1000;
-}
-
-#well {
-    color: red;
-    text-align: center;
+.card1 img {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
 
-p {
-    color: green;
+.gear {
+    display: flex;
+    height: 27px;
+    width: fit-content;
+    margin-top: 48px;
+    background-color: #191919;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 0 16px;
+    margin-bottom: 48.44px;
 }
 
-.cl {
-    font-weight: 10000;
+.episode {
+    display: flex;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #118DA8;
+    margin-bottom: 18px;
 }
 
-#well {
-    color: yellow;
-    text-align: right;
+.text {
+    display: flex;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+    margin-bottom: 28px;
+}
+
+.littletext {
+    display: flex;
+    color: #FFFFFFB2;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 18px;
+}
+
+.btn1 {
+    
+    width: 208px;
+    height: 51px;
+    border-radius: 6px;
+    background-color: #118DA8;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
 }
